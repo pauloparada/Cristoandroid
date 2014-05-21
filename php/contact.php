@@ -10,11 +10,11 @@
 	// variables end
 	
 	// email address starts
-	$emailAddress = 'paultrifa@gmail.com';
+	$emailAddress = 'paulodavidparada@gmail.com';
 	// email address ends
 	
-	$subject = "Message From: $name";	
-	$message = "<strong>From:</strong> $name <br/><br/> <strong>Message:</strong> $message";
+	$subject = "Mensaje enviado por: $name";	
+	$message = "<strong>From:</strong> $name <br/><br/> <strong>Mensaje:</strong> $message";
 	
 	$headers .= 'From: '. $name . '<' . $email . '>' . "\r\n";
 	$headers .= 'Reply-To: ' . $email . "\r\n";
