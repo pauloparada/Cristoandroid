@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.cristovision.cristovision"
+        id        = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnWyhq0LtslIs23YnxwLg1q2IulunCiJ9/0hqz7AdVFTWBBGiufWHMcWso8I1qEcAa3RpDIZtZuo5xjAMs9RrxMPeVfMUUHslHPhSJqPj44sJb/47oN278KqT6/wzE2sp5TcPELqxLuDsmIKhW/kN3munHNOnBkHK8AYM/tg4iWd6ug3UnTkKUDPSv6BuRZOvjV+3YDqQEWygWNMAA7VMqk952l7Sc0wZlv4W+2W8ceTGOgRODZHPr7zHfLT4ErlC+/hykY5pHFfKxMQX6/l/VUIbtTuJMXL8WRTg+FPYWlAoIbvnyJcQxfjYJ9jb5HM48WAFxaqklV4zjrrArL0E6QIDAQAB"
         version   = "1.0.0">
 
     <name>Cristovision</name>
