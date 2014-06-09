@@ -6,14 +6,14 @@
         id        = "com.cristovision.cristovision"
         version   = "1.0.0">
 
-     <name>Cristovision</name>
+    <name>Cristovision</name>
 
     <description>
         Cristovisión el canal de la Iglesía Católica estrena su nueva aplicacion con la cual podras estar enterado de las noticias de la Iglesía, explorar nuestras redes sociales, ver nuestra señal en vivo y mucho mas! Bienvenido a ver el mundo con los ojos de Jesús.
     </description>
 
     <author href="http://www.cristovision.tv" email="webmaster@cristovision.org">
-        Cristovision 
+        Paulo Parada
     </author>
 
     <!--
@@ -32,7 +32,6 @@
     <!-- Customize your app and platform with the preference element. -->
     <!-- <preference name="phonegap-version"      value="3.4.0" /> -->      <!-- all: current version of PhoneGap -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
-    <preference name="BackgroundColor" value="blue"/>
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
@@ -97,3 +96,4 @@
     -->
 
 </widget>
+
