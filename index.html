@@ -76,13 +76,22 @@
 <script src="scripts/retina.js"			type="text/javascript"></script>
 <script src="scripts/custom.js"			type="text/javascript"></script>
 <script src="scripts/framework.js"		type="text/javascript"></script>
-    <script type="text/javascript">
-        $(document).on('click', ".linkexternal", function (e) {
-            e.preventDefault();
-            //window.open('http://apache.org', '_blank', 'location=no');
-                       window.open('http://apache.org', '_system', 'location=yes');
-
-        });
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+    // device APIs are available
+    //
+    function onDeviceReady() {
+         alert('Device is ready');
+    }
+    function openBrowser(){
+        window.open('http://apache.org', '_system', 'location=yes');
+    }
+    function openinAppBrowser(){
+        window.open('"http://apache.org" title="http://apache.org">http://apache.org', '_blank', 'location=yes');
+    }
     </script>
 
 
@@ -109,7 +118,10 @@
     	<h3>Bienvenido a Nuestra Aplicación</h3>
         <p>Haz parte de Nuestra 
         
-       <a onclick="window.open("http://www.google.com/", "_system");">Link</a>
+       <p><button onclick='openBrowser();'>Open Browser</button></p>
+    <p><button onclick='openinAppBrowser();'>Open Browser</button></p>
+
+       
         
         </p>
 
