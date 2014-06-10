@@ -25,10 +25,7 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     
     
-    <gap:plugin name="org.apache.cordova.inappbrowser" value="CDVInAppBrowser" />
-    <feature name="InAppBrowser">
-        <param name="ios-package" value="CDVInAppBrowser" />
-    </feature>
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
     <access origin="*"/>
 
     <!--
