@@ -40,6 +40,12 @@
 <script src="scripts/framework.js"		type="text/javascript"></script>
 
 <script type="text/javascript" charset="utf-8">
+// Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+    // device APIs are available
+    //
+    
 function openBrowser(){
         window.open('https://www.banco.colpatria.com.co/PagosElectronicos/Referencias.aspx?IdConvenio=2445', '_system', 'location=yes');
     }
