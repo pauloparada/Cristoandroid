@@ -83,15 +83,20 @@
     document.addEventListener("deviceready", onDeviceReady, false);
     // device APIs are available
     //
-    function onDeviceReady() {
-         alert('Device is ready');
-    }
+
     function openBrowser(){
         window.open('http://www.cristovision.tv/queesreddeamigos.html', '_system', 'location=yes');
+    }
+    function openBrowser2(){
+        window.open('https://www.facebook.com/CanalCristovisionTV', '_system', 'location=yes');
+    }
+    function openBrowser3(){
+        window.open('https://twitter.com/CRISTOVISION', '_system', 'location=yes');
     }
     function openinAppBrowser(){
         window.open('"http://apache.org" title="http://apache.org">http://apache.org', '_blank', 'location=yes');
     }
+
     </script>
 
 
@@ -116,7 +121,7 @@
     
     <div class="welcome-text">
     	<h3>Bienvenido a Nuestra Aplicación</h3>
-        <p>Haz parte de Nuestra <button onclick='openBrowser("http://www.cristovision.tv/");' style="color:white;">Red de Amigos</button>        
+        <p>Haz parte de Nuestra <button onclick='openBrowser("http://www.cristovision.tv/");' style="color:white;">RED DE AMIGOS</button>        
         </p>
 
         
@@ -135,9 +140,11 @@
     </div>
     
     <div class="small-navigation-icons">
-    	<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>
+        <button onclick='openBrowser2("https://www.facebook.com/CanalCristovisionTV");' class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></button>
+    	<!--<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>-->
         <a href="#" class="small-nav-icon go-up up-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/bendedup.png"></a>
-        <a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>
+        <button onclick='openBrowser3("https://twitter.com/CRISTOVISION");' class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></button>
+        <!--<a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>-->
         <div class="clear"></div>
     </div>
     
