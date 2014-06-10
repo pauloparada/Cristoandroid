@@ -16,12 +16,7 @@
         Paulo Parada
     </author>
 
-    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
-    <feature name="InAppBrowser">
-    <param name="ios-package" value="CDVInAppBrowser" />
-    </feature>
-    <access origin="*"/>
-    
+   <gap:plugin name="org.apache.cordova.inappbrowser" />
 
     <!--
         Enable individual API permissions here.
