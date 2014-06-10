@@ -100,7 +100,8 @@
     <div class="welcome-text">
     	<h3>Bienvenido a Nuestra Aplicación</h3>
         <p>Haz parte de Nuestra 
-        <a href="#" onclick="window.open('http://www.cristovision.tv/queesreddeamigos.html, '_system', 'location=yes');">Red de Amigos</a>
+        <a class="linkexternal" href="#">Red de Amigos</a>
+        
         </p>
     </div>
     
@@ -132,6 +133,15 @@
 
 
 </body>
+<script type="text/javascript">
+        $(document).on('click', ".linkexternal", function (e) {
+            e.preventDefault();
+            //window.open('http://apache.org', '_blank', 'location=no');
+                       window.open('http://www.cristovision.tv/queesreddeamigos.html', '_system', 'location=yes');
+
+        });
+    </script>
+
 </html>
 
 
