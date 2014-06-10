@@ -39,6 +39,17 @@
 <script src="scripts/custom.js"			type="text/javascript"></script>
 <script src="scripts/framework.js"		type="text/javascript"></script>
 
+<script type="text/javascript" charset="utf-8">
+
+    function openBrowserfacebook(){
+        window.open('https://www.facebook.com/CanalCristovisionTV', '_system', 'location=yes');
+    }
+    function openBrowsertwitter(){
+        window.open('https://twitter.com/CRISTOVISION', '_system', 'location=yes');
+    }
+
+    </script>
+
 </head>
 <body style="background-image:url('images/background/background.png');">
 
@@ -98,9 +109,13 @@
 
 <div class="footer">
     <div class="small-navigation-icons">
-      <a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>
+
+      <button onclick='openBrowserfacebook("https://www.facebook.com/CanalCristovisionTV");' class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></button>
+      <!--<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>-->
         <a href="#" class="small-nav-icon go-up up-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/bendedup.png"></a>
-        <a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>
+        <button onclick='openBrowsertwitter("https://twitter.com/CRISTOVISION");' class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></button>
+        <!--<a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>-->
+
         <div class="clear"></div>
     </div>
 

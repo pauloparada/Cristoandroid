@@ -40,6 +40,13 @@
 <script src="scripts/framework.js"		type="text/javascript"></script>
 
 <script type="text/javascript" charset="utf-8">
+function openBrowser(){
+        window.open('https://www.banco.colpatria.com.co/PagosElectronicos/Referencias.aspx?IdConvenio=2445', '_system', 'location=yes');
+    }
+
+    function openBrowser2(){
+        window.open('http://www.cristovision.tv/donacionescredito.html', '_system', 'location=yes');
+    }
 
     function openBrowserfacebook(){
         window.open('https://www.facebook.com/CanalCristovisionTV', '_system', 'location=yes');
@@ -49,6 +56,7 @@
     }
 
     </script>
+
 
 </head>
 <body style="background-image:url('images/background/background.png');">
@@ -76,10 +84,10 @@
           <div class="heading">
               <div class="heading-left">
                   
-                  <h3>VIDEOS RECIENTES</h3>
+                  <h3>DONACIONES</h3>
               </div>
               <div class="heading-right">
-                  <span class="icon icon-video"><img <img style="height:20px; width:20px; left:16%; top:16%;" src="images/film.png"></span>
+                  <span class="icon icon-donaciones"><img <img style="height:20px; width:20px; left:16%; top:16%;" src="images/donacionesicon.png"></span>
               </div>
           </div>
       </div>
@@ -87,17 +95,17 @@
       <div class="decoration"></div>
       
        <div class="container no-bottom">
-            <div class="portfolio-item-full-width">
-				<iframe class="responsive-video image-decoration" src="http://www.youtube.com/embed/PjCNunTuNHM"></iframe>
-                <h6 class="uppercase">Mensaje del Cardenal Rubén Salazar Goméz - Maratón Cristovisión 2014</h6>
-                <p>El cardenal Rubén Salazar Goméz envia un mensaje a todos los cristovidentes sobre la importancia de aportar en esta maratón.</p>
+        <h4 style="text-align:center;">Donación con Tarjeta Débito</h4>
+           
+        <center><a href="#" onclick='openBrowser("https://www.banco.colpatria.com.co/PagosElectronicos/Referencias.aspx?IdConvenio=2445");' ><img src="images/donacionesicons/donacionesdebito.png"></a></center>
+
         	</div>
             <div class="decoration"></div>
-        	<div class="portfolio-item-full-width">
-				<iframe class="responsive-video image-decoration" src="http://www.youtube.com/embed/oK8v9q_6HcU"></iframe> 
-				<h6 class="uppercase">Homilia 11 de Mayo del 2014</h6>
-                <p>Homilía celebrada por el Padre Ramón Zambrano desde la Catedral Santiago Apostol de Fontibón.</p>
-        	</div>
+        	<div class="container no-bottom">
+          <h4 style="text-align:center;">Donación con Tarjeta Credito</h4>	
+
+          <center><a href="#" onclick='openBrowser2("http://www.cristovision.tv/donacionescredito.html");'><img src="images/donacionesicons/donacionescredito.png"></a></center>
+
         </div>	
               
     <div class="decoration"></div>
@@ -105,7 +113,7 @@
 
 <div class="footer">
     <div class="small-navigation-icons">
-
+      
       <button onclick='openBrowserfacebook("https://www.facebook.com/CanalCristovisionTV");' class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></button>
       <!--<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>-->
         <a href="#" class="small-nav-icon go-up up-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/bendedup.png"></a>
