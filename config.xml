@@ -16,6 +16,9 @@
         Paulo Parada
     </author>
 
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+
     <!--
         Enable individual API permissions here.
         The "device" permission is required for the 'deviceready' event.
