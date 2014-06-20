@@ -12,17 +12,8 @@
 <link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
 <!-- iPhone 5 -->
 <link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
-<link href="css/reset.css" type="text/css" rel="stylesheet" />
-<link href="css/dp_calendar.css" type="text/css" rel="stylesheet" />
-<link href="css/demo.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="ui/jquery.ui.core.js"></script> 
-<script type="text/javascript" src="ui/jquery.ui.position.js"></script>
-<script type="text/javascript" src="ui/jquery.ui.datepicker.js"></script> 
-<script type="text/javascript" src="js/date.js"></script>
-<script type="text/javascript" src="js/jquery.dp_calendar.min.js"></script>
-<script type="text/javascript" src="js/jquery.dp_calendar-es.js"></script>
-<!-- Page Title -->
 
+<!-- Page Title -->
 <title>Cristovision | El canal de la Iglesia Católica</title>
 
 <!-- Stylesheet Load -->
@@ -55,6 +46,14 @@
     document.addEventListener("deviceready", onDeviceReady, false);
     // device APIs are available
     //
+    
+function openBrowser(){
+        window.open('https://www.banco.colpatria.com.co/PagosElectronicos/Referencias.aspx?IdConvenio=2445', '_system', 'location=yes');
+    }
+
+    function openBrowser2(){
+        window.open('http://www.cristovision.tv/donacionescredito.html', '_system', 'location=yes');
+    }
 
     function openBrowser3(){
         window.open('https://www.facebook.com/CanalCristovisionTV', '_system', 'location=yes');
@@ -65,13 +64,14 @@
 
     </script>
 
+
 </head>
 <body style="background-image:url('images/background/background.png');">
 
 <div id="preloader">
 	<div id="status">
     	<p class="center-text">
-			Cargando el contenido...
+      Cargando el contenido...
             <em>La carga del contenido depende de su velocidad de conexion!</em>
         </p>
     </div>
@@ -80,51 +80,47 @@
 <div class="header">
     <a class="logo-home" href="index.html"><img src="images/logob.png" alt="img" width="40"></a>
     <div class="header-text">
-       <strong>CRISTOVISIÓN</strong>
+        <strong>CRISTOVISIÓN</strong>
         <em>El canal de la Iglesia Católica</em>
     </div>
 </div>
 <div class="header-clear"></div>
 
 <div class="content">
-    
+      <div class="container no-bottom">
+          <div class="heading">
+              <div class="heading-left">
+                  
+                  <h3>DONACIONES</h3>
+              </div>
+              <div class="heading-right">
+                  <span class="icon icon-donaciones"><img <img style="height:20px; width:20px; left:16%; top:16%;" src="images/donacionesicon.png"></span>
+              </div>
+          </div>
+      </div>
+      
+      <div class="decoration"></div>
+      
+       <div class="container no-bottom">
+        <h4 style="text-align:center;">Donación con Tarjeta Débito</h4>
+           
+        <center><a href="#" onclick='openBrowser("https://www.banco.colpatria.com.co/PagosElectronicos/Referencias.aspx?IdConvenio=2445");' ><img src="images/donacionesicons/donacionesdebito.png"></a></center>
+
+        	</div>
+            <div class="decoration"></div>
+        	<div class="container no-bottom">
+          <h4 style="text-align:center;">Donación con Tarjeta Credito</h4>	
+
+          <center><a href="#" onclick='openBrowser2("http://www.cristovision.tv/donacionescredito.html");'><img src="images/donacionesicons/donacionescredito.png"></a></center>
+
+        </div>	
+              
     <div class="decoration"></div>
-    
-    <div class="clear"></div>
-    
-    <div id="tab-one">
-
-        <div class="heading no-bottom">
-            <div class="heading-left">
-                <h3>PROGRAMACIÓN</h3>
-            </div>
-            <div class="heading-right">
-                <span class="icon icon-calendar"><img style="height:20px; width:20px; left:16%; top:16%;" src="images/calendar.png"></span>
-    
-            </div>
-
-        </div>
-        <div id="content">
-        
-                        
-                        <p style="width:100%; height:100%; left:10%;"><iframe src="demo/pruebaworking.html" height="700" frameborder="0" style="border:0"></iframe></p>
-                        
-                        
-                        
-
-                        
-                    </div>
-    
-        <div class="decoration"></div>
-
-        
-    </div>
-    
-
+</div>
 
 <div class="footer">
     <div class="small-navigation-icons">
-
+      
       <button onclick='openBrowser3("https://www.facebook.com/CanalCristovisionTV");' class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></button>
       <!--<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>-->
         <a href="#" class="small-nav-icon go-up up-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/bendedup.png"></a>
@@ -134,9 +130,9 @@
         <div class="clear"></div>
     </div>
 
-
     <p class="copyright">CRISTOVISION 2014. TODOS LOS DERECHOS RESERVADOS</p>
 </div>
+
 
 </body>
 </html>

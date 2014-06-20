@@ -5,48 +5,48 @@
 <!-- Declare page as iDevice WebApp friendly -->
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash-icon.png"> 
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="res/icon/ios/icon.png"> 
 
 <!-- Android -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash-icon.png"> 
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="res/icon/ios/icon.png"> 
 <!-- iPhone 3, 3Gs -->
-<link rel="apple-touch-startup-image" href="images/splash-screen.png" 			media="screen and (max-device-width: 320px)" /> 
+<link rel="apple-touch-startup-image" href="res/screen/ios/screen-iphone-portrait.png" 			media="screen and (max-device-width: 320px)" /> 
 <!-- Android -->
-<link rel="apple-touch-startup-image" href="images/splash-screen.png"           media="screen and (max-device-width: 320px)" /> 
+<link rel="apple-touch-startup-image" href="res/screen/ios/screen-iphone-portrait.png"           media="screen and (max-device-width: 320px)" /> 
 <!-- iPhone 4 -->
-<link rel="apple-touch-startup-image" href="images/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" href="res/screen/ios/screen-iphone-portrait.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
 <!-- iPhone 5 -->
-<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash-screen@3x.png" />
+<link rel="apple-touch-startup-image" sizes="640x1096" href="res/screen/ios/screen-iphone-portrait-2x.png" />
 
 <!-- Define app icon for each platform. This is a relative path to config.xml.
         For e.g. if you place an icon.png inside res folder, you should modify the
         src in the following setting to "res/icon.png" -->
-    <icon src="icon.png" />
-    <icon src="images/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="images/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="images/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="images/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="res/icon/ios/icon.png" />
+    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
     <icon src="images/icon-80.png"     gap:platform="blackberry" />
     <icon src="images/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
-    <icon src="images/icon-57.png"            gap:platform="ios"        width="57" height="57" />
-    <icon src="images/icon-72.png"            gap:platform="ios"        width="72" height="72" />
-    <icon src="images/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
-    <icon src="images/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
     <icon src="images/icon-64.png"          gap:platform="webos" />
-    <icon src="images/icon-48.png"  gap:platform="winphone" />
-    <icon src="images/icon-173.png" gap:platform="winphone"   gap:role="background" />
+    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="images/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
-    <gap:splash src="images/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
-    <gap:splash src="images/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
-    <gap:splash src="images/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+    <gap:splash src="res/screen/android/screen-ldpi-portrait.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"       gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"       gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
     <gap:splash src="images/screen-225.png"              gap:platform="blackberry" />
-    <gap:splash src="images/screen-iphone-portrait.png"         gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="images/screen-iphone-portrait-2x.png"      gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="images/screen-iphone-portrait-568h-2x.png" gap:platform="ios"     width="640" height="1136" />
-    <gap:splash src="images/screen-ipad-portrait.png"           gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="images/screen-ipad-landscape.png"          gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"         gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png"      gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait.png" gap:platform="ios"     width="640" height="1136" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"           gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"          gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="images/screen-portrait.jpg"      gap:platform="winphone" />
 
 
@@ -76,11 +76,34 @@
 <script src="scripts/retina.js"			type="text/javascript"></script>
 <script src="scripts/custom.js"			type="text/javascript"></script>
 <script src="scripts/framework.js"		type="text/javascript"></script>
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        
+    <script type="text/javascript" charset="utf-8">
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+    // device APIs are available
+    //
+
+    function openBrowser(){
+        window.open('http://www.cristovision.tv/queesreddeamigos.html', '_system', 'location=yes');
+    }
+    function openBrowser2(){
+        window.open('https://www.facebook.com/CanalCristovisionTV', '_system', 'location=yes');
+    }
+    function openBrowser3(){
+        window.open('https://twitter.com/CRISTOVISION', '_system', 'location=yes');
+    }
+    function openinAppBrowser(){
+        window.open('"http://apache.org" title="http://apache.org">http://apache.org', '_blank', 'location=yes');
+    }
+
+    </script>
 
 
 
 </head>
-<body>
+<body style="background-image:url('images/background/background.png');">
 
 <div id="preloader">
 	<div id="status">
@@ -99,23 +122,33 @@
     
     <div class="welcome-text">
     	<h3>Bienvenido a Nuestra Aplicación</h3>
-        <p>Haz parte de Nuestra red de Amigos</p>    
+        <p>Haz parte de Nuestra <a onclick='openBrowser("http://www.cristovision.tv/");' style="color:white; font-family: 'Dosis', sans-serif; font-size: 14px;">RED DE AMIGOS</a>        
+        </p>
+
+        
     </div>
     
     <div class="navigation-icons">
-    	<a href="home.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:22%;" src="images/casa.png" alt="home" width="34" height="34"></a>
-        <a href="senalenvivo.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:22%;" src="images/download.png" alt="señal en vivo" width="34" height="34"></a>
-        <a href="homilias.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:22%;" src="images/homilia.png" alt="homilias" width="34" height="34"></a>
-        <a href="programacion.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:22%;" src="images/calendar.png" alt="programacion" width="34" height="34"></a>
-        <a href="video.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:22%;" src="images/film.png" alt="video" width="34" height="34"></a>
-        <a href="contacto.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:22%;" src="images/mail.png" alt="contacto" width="34" height="34"></a>
+    	<a href="home.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%; z-index:3;" src="images/casa.png" alt="home" width="34" height="34"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold;">Nosotros</p>
+        </a>
+        <a href="senalenvivo.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%;" src="images/download.png" alt="señal en vivo" width="34" height="34"><div id="textbox" style="width:50px; height:100px;"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold; line-height:90%; margin-left:10px; top:5px;">Señal en Vivo</p></div></a>
+        <a href="homilias.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%;" src="images/homilia.png" alt="homilias" width="34" height="34"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold;">Homilias</p></a>
+        <a href="programacion.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%;" src="images/calendar.png" alt="programacion" width="34" height="34"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold;">Horarios</p></a>
+        
+        <a href="donaciones.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%;" src="images/donacionesicon.png" alt="video" width="34" height="34"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold;">Donaciones</p></a>
+
+        <a href="video.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%;" src="images/film.png" alt="video" width="34" height="34"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold;">Video</p></a>
+
+        <a href="contacto.html" class="nav-icon icon-dblue"><img style="height:34px; width:34px; left:22%; top:13%;" src="images/mail.png" alt="contacto" width="34" height="34"><p style="color:white; font-size: 9px; text-align:center; font-weight:bold;">Contacto</p></a>
 
     </div>
     
     <div class="small-navigation-icons">
-    	<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>
+        <button onclick='openBrowser2("https://www.facebook.com/CanalCristovisionTV");' class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></button>
+    	<!--<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>-->
         <a href="#" class="small-nav-icon go-up up-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/bendedup.png"></a>
-        <a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>
+        <button onclick='openBrowser3("https://twitter.com/CRISTOVISION");' class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></button>
+        <!--<a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>-->
         <div class="clear"></div>
     </div>
     
@@ -128,6 +161,8 @@
 
 
 </body>
+
+
 </html>
 
 
