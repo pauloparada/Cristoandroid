@@ -55,14 +55,6 @@
     }
 
     </script>
-    <style type="text/css">
-#iframevideo{
-    width: 100%;
-    height: 1600px;
-    
-}
-
-</style>
 
 </head>
 <body style="background-image:url('images/background/background.png');">
@@ -70,7 +62,7 @@
 <div id="preloader">
 	<div id="status">
     	<p class="center-text">
-      Cargando el contenido...
+			Cargando el contenido...
             <em>La carga del contenido depende de su velocidad de conexion!</em>
         </p>
     </div>
@@ -85,26 +77,9 @@
 </div>
 <div class="header-clear"></div>
 
-<div class="content">
-      <div class="container no-bottom">
-          <div class="heading">
-              <div class="heading-left">
-                  
-                  <h3>VIDEOS RECIENTES</h3>
-              </div>
-              <div class="heading-right">
-                  <span class="icon icon-video"><img <img style="height:20px; width:20px; left:16%; top:16%;" src="images/film.png"></span>
-              </div>
-          </div>
 
-      </div>
-
-      <iframe id="iframevideo" src="http://www.cristovision.tv/aplicacion/videosedit.html" style="box-shadow: 1px 1px 5px #444444;" frameborder="0"  allowfullscreen></iframe>
-
-      <div class="decoration"></div>
-      
-     
-              
+<?php include ("http://www.cristovision.tv/aplicacion/homilias.php"); ?>
+    
     <div class="decoration"></div>
 </div>
 
@@ -119,7 +94,6 @@
 
         <div class="clear"></div>
     </div>
-
     <p class="copyright">CRISTOVISION 2014. TODOS LOS DERECHOS RESERVADOS</p>
 </div>
 

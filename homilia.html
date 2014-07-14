@@ -55,14 +55,25 @@
     }
 
     </script>
-    <style type="text/css">
-#iframevideo{
+
+
+<script>
+$(document).ready(function(){
+ 
+    $("#div1").load('www.google.com');
+
+  
+});
+</script>
+<style type="text/css">
+#iframehomilia{
     width: 100%;
-    height: 1600px;
-    
+    height: 100%;
+    position: absolute;
 }
 
 </style>
+
 
 </head>
 <body style="background-image:url('images/background/background.png');">
@@ -70,58 +81,40 @@
 <div id="preloader">
 	<div id="status">
     	<p class="center-text">
-      Cargando el contenido...
+			Cargando el contenido...
             <em>La carga del contenido depende de su velocidad de conexion!</em>
         </p>
     </div>
 </div>
 
-<div class="header">
+<div class="header" style="position:relative;">
     <a class="logo-home" href="index.html"><img src="images/logob.png" alt="img" width="40"></a>
     <div class="header-text">
         <strong>CRISTOVISIÓN</strong>
         <em>El canal de la Iglesia Católica</em>
     </div>
 </div>
-<div class="header-clear"></div>
 
-<div class="content">
-      <div class="container no-bottom">
-          <div class="heading">
-              <div class="heading-left">
-                  
-                  <h3>VIDEOS RECIENTES</h3>
-              </div>
-              <div class="heading-right">
-                  <span class="icon icon-video"><img <img style="height:20px; width:20px; left:16%; top:16%;" src="images/film.png"></span>
-              </div>
-          </div>
 
-      </div>
 
-      <iframe id="iframevideo" src="http://www.cristovision.tv/aplicacion/videosedit.html" style="box-shadow: 1px 1px 5px #444444;" frameborder="0"  allowfullscreen></iframe>
-
-      <div class="decoration"></div>
-      
-     
-              
+<iframe id="iframehomilia" src="http://www.cristovision.tv/aplicacion/homiliasedit.html" style="box-shadow: 1px 1px 5px #444444;" frameborder="0"  allowfullscreen></iframe>
+    
     <div class="decoration"></div>
 </div>
 
-<div class="footer">
+<!--<div class="footer">
     <div class="small-navigation-icons">
 
       <button onclick='openBrowser3("https://www.facebook.com/CanalCristovisionTV");' class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></button>
-      <!--<a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>-->
+      <a href="https://www.facebook.com/CanalCristovisionTV" class="small-nav-icon facebook-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/facebook.png"></a>
         <a href="#" class="small-nav-icon go-up up-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/bendedup.png"></a>
         <button onclick='openBrowser4("https://twitter.com/CRISTOVISION");' class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></button>
-        <!--<a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>-->
+        <a href="https://twitter.com/CRISTOVISION" class="small-nav-icon twitter-nav"><img style="height:24px; width:24px; left:19%; top:19%;"src="images/twitter.png"></a>
 
         <div class="clear"></div>
     </div>
-
     <p class="copyright">CRISTOVISION 2014. TODOS LOS DERECHOS RESERVADOS</p>
-</div>
+</div>-->
 
 
 </body>
