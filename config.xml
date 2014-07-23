@@ -47,8 +47,8 @@
     <!--<gap:plugin name="org.apache.cordova.audiohandler" />
     <gap:plugin name="com.adobe.plugins.gaplugin" />-->
     <preference name="ios-statusbarstyle" value="black-opaque" />
-    <icon src="icons/winphone/iconWP8.png" gap:platform="winphone" />
-    <icon src="icons/winphone/tileIconWP.png" gap:platform="winphone" gap:role="background" />
+    <icon src="res/icon/windows-phone/icon-62.png" gap:platform="winphone" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />
     <preference name="orientation" value="potrait" />
     <!--<access origin="*" />
     <access origin="http://maps.google.com" />
@@ -105,9 +105,9 @@
     <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
     <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
-    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
-    <icon src="res/icon/windows-phone/icon-62.png"  gap:platform="winphone" />
-    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
+    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone"   width="48" height="48" />
+    <icon src="res/icon/windows-phone/icon-62.png"  gap:platform="winphone"   width="62" height="62" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   width="173" height="173" />
 
     <!-- Define app splash screen for each platform. -->
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
@@ -125,7 +125,11 @@
  
 
      
-
+    <platform name="wp8">
+              <icon src="res/icon/windows-phone/icon-62.png" width="62" height="62" />
+              <!-- tile image -->
+              <icon src="res/icon/windows-phone/icon-173.png" width="173" height="173" />
+     </platform>
     
 
     <!--
